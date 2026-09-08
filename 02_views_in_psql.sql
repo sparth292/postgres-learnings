@@ -19,3 +19,5 @@ WHERE id = 2 OR id = 62;
 create view student_dept_seperation AS select * from students where dept = 'EXTC';
 
 SELECT * FROM student_dept_seperation;
+
+update student_dept_seperation set dept = 'CE' where id = 62;
